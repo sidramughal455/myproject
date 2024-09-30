@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.start{
+    width: 100%;
+    background: url(https://img.pikbest.com/wp/202346/sale-shopping-bag-campaign-concept-with-3d-rendered-tag-on-background_9735899.jpg!sw800);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.cart button{
+    background-color: transparent;
+    margin-left: 140px;
+    padding: 8px 25px;
+    font-size: 22px;
+    justify-content: space-around;
+    border: none;
+    color: black ;
+
+}
+
+.search-container {
+    display: flex;
+    
+  }
+/* Style for the input */
+
+
+  .search-input {
+    padding: 10px ;
+    border: none;
+    /* border-radius: 20px; */
+    background-color: #f0f0f0; /* Set background color */
+    width: 550px;
+    height: 18px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 18px;
+    text-indent: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+  }
+
+  /* Style for the search icon */
+  .search-icon {
+    position: absolute;
+    top: 214px;
+    /* right: 10px; */
+    transform: translateY(-50%);
+    color: white;
+    background-color:  rgb(66, 48, 48);
+    padding: 11px;
+    margin-left: 553px;
+    
+
+  }
+
+
+.cart button i{
+    margin-right: 10px;
+}
+
+.cartz button{
+    background-color: transparent;
+    padding: 8px 25px;
+    font-size: 22px;
+    justify-content: space-around;
+    border: none;
+    color: black ;
+
+}
+.cartz button i{
+    margin-right: 10px;
+}
+
+.head{
+    margin-top: 170px;
+    align-items: center;
+}
+
+.head h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color:  rgb(39, 36, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.head button{
+    align-items: center;
+    margin-left: 670px;
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color:  rgb(72, 52, 52);
+    font-size: 23px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(233, 92, 125, 0.8);
+    transition: box-shadow 0.1s ease; 
+
+
+}
+.head button:hover {
+    transform: scale(1.2);
+}
+
+
+.section h1{
+    text-align: center;
+    padding: 50px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(93, 76, 76);
+    font-size: 30px;
+    
+    
+    
+
+}
+.cards{
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-around;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    
+}
+.card{
+    height: 640px;
+    width: 380px;
+    background-color: beige;
+
+    
+}
+
+.ship button {
+    padding: 13px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: white;
+    background-color:  rgb(55, 49, 49);
+    margin-left: 580px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    cursor: pointer;
+
+}
+.ship button:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+    box-shadow: 0px 2px 20px  rgb(200, 135, 51);
+}
+
+
+.card img{
+    height: 480px;
+    width: 380px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.card img:hover{
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+
+}
+.card span{
+    font-size: 30px;
+    display: grid;
+    text-align: center;
+    
+    
+}
+
+.card p{
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 30xp;
+}
+
+.footer{
+    /* background-color: rgb(67, 58, 58); */
+    justify-content: space-around;
+    background-color: rgb(36, 34, 34);
+    padding: 120px ;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inp{
+    margin-top: 50px;
+    margin-bottom: 20px;   
+}
+
+.inp input{
+    height: 40px;
+    width: 400px;
+    text-indent: 15px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.beet {
+    margin-top: 30px;
+    margin-bottom: 20px;   
+}
+
+.beet span{
+    margin-left: 20px;
+}
+.help{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
